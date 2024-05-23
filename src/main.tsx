@@ -1,0 +1,15 @@
+import React, { useEffect } from "react";
+import ReactDOM from "react-dom/client";
+import App from "./App.tsx";
+import "./index.css";
+
+
+ReactDOM.createRoot(document.getElementById("root")!).render(
+  <React.StrictMode>
+    <App />
+    <div style={{ position: "relative", zIndex: 1 }}>
+      {/* 3D scene code goes here */}
+    </div>
+  </React.StrictMode>
+);
+
