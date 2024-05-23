@@ -1,4 +1,4 @@
-import React from 'react'
+// import React from 'react'
 import Navbar from './components/navbar'
 import gsap from 'gsap'
 import Model from './components/model'
